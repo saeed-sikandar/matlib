@@ -9,7 +9,7 @@
 
     // Subtract subtracts the second number from the first and returns the result.
     func Subtract(a, b int) int {
-    return a — b
+    return a - b
     }
 
     // Multiply multiplies two numbers and returns the result.
@@ -21,7 +21,7 @@
     // It returns an error if the second number is zero.
     func Divide(a, b int) (int, error) {
     if b == 0 {
-    return 0, errors.New(“division by zero is not allowed”)
+    return 0,errors.New("division by zero is not allowed")
     }
-    return a / b, nil
+    return a / b,nil
     }
